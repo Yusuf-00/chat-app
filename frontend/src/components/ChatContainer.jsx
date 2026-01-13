@@ -79,7 +79,7 @@ const ChatContainer = () => {
                   className="sm:max-w-50 rounded-md mb-2"
                 />
               )}
-              {message.text && <p>{message.text}</p>}
+              {message.text && <p className="break-words">{message.text}</p>}
             </div>
           </div>
         ))}
